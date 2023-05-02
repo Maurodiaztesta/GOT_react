@@ -1,0 +1,22 @@
+img{
+    width: 150px;
+}
+.hidden{
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.333);
+    text-decoration: none;
+    color: white;
+}
+.imagen{
+    position: relative;
+    img{
+        object-fit: cover;
+    }
+}
+.imagen:hover .hidden{
+        display: block;    
+}
